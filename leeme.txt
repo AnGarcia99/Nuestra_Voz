@@ -1,0 +1,10 @@
+1.- Ejecutar el Script "User_DB.sql" para crear la base de datos con las tablas con algunos registros....
+
+2.- El proyecto esta hecho en PHP, debera estar en la carpeta de C:/xampp/htdocs
+
+3.- Entrar al proyecto con la url: localhost/Gestion_Usuarios
+
+4.- Inciar sesion con los siguientes datos:
+Usuario: admin
+Password: admin123
+
