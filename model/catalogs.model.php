@@ -40,10 +40,7 @@ class ModelCatalogs {
 
     /** Add a new Description in a Catalog */
     public static function addDescription($nameCatalog, $Cv, $Ds, $Description) {
-        $sql = "INSERT INTO $nameCatalog($Ds) VALUES(:$Ds);
-                SET @num := 0;
-                UPDATE $nameCatalog SET $ColCv = @num := (@num+1);
-                ALTER TABLE $nameCatalog AUTO_INCREMENT = 1";
+        $sql = "INSERT INTO $nameCatalog($Ds) VALUES(:$Ds)";
 
         $stmt = Conexion::conectar() -> prepare($sql);
         $stmt -> bindParam(":$Ds", $Description, PDO::PARAM_STR);
