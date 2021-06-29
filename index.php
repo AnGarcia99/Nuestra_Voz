@@ -1,6 +1,6 @@
 <?php
 
-require_once "controller/layout.controller.php";
+require_once "controller/layout.controller.pp";
 
 require_once "controller/catalogs.controller.php";
 require_once "controller/datperson.controller.php";
